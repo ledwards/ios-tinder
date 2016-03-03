@@ -24,8 +24,8 @@
 		9B1B33801C87E30B00533D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1B33831C87E30B00533D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1B33851C87E30B00533D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B1B33931C87E70400533D89 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
-		9B1B33951C87E78300533D89 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		9B1B33931C87E70400533D89 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DraggableImageView.xib; path = ../DraggableImageView.xib; sourceTree = "<group>"; };
+		9B1B33951C87E78300533D89 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DraggableImageView.swift; path = ../DraggableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,6 @@
 		9B1B336D1C87E30B00533D89 = {
 			isa = PBXGroup;
 			children = (
-				9B1B33951C87E78300533D89 /* DraggableImageView.swift */,
-				9B1B33931C87E70400533D89 /* DraggableImageView.xib */,
 				9B1B33781C87E30B00533D89 /* Tinder */,
 				9B1B33771C87E30B00533D89 /* Products */,
 			);
@@ -60,6 +58,8 @@
 		9B1B33781C87E30B00533D89 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				9B1B33931C87E70400533D89 /* DraggableImageView.xib */,
+				9B1B33951C87E78300533D89 /* DraggableImageView.swift */,
 				9B1B33791C87E30B00533D89 /* AppDelegate.swift */,
 				9B1B337B1C87E30B00533D89 /* CardsViewController.swift */,
 				9B1B337D1C87E30B00533D89 /* Main.storyboard */,

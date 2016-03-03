@@ -9,6 +9,7 @@
 import UIKit
 
 class DraggableImageView: UIView {
+    @IBOutlet var contentView: UIView!
     @IBOutlet weak var imageView: UIImageView!
 
     @IBAction func onPanGesture(sender: AnyObject) {
@@ -48,7 +49,7 @@ class DraggableImageView: UIView {
     func initSubviews() {
         let nib = UINib(nibName: "DraggableImageView", bundle: nil)
         nib.instantiateWithOwner(self, options: nil)
-        imageView.frame = bounds
-        addSubview(imageView)
+        contentView.frame = bounds
+        addSubview(contentView)
     }
 }
