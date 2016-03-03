@@ -17,10 +17,12 @@ class DraggableImageView: UIView {
         
         if sender.state == .Began {
             originalImageCenter = imageView.center
+            originalRotation = CGFloat(atan2f(Float(imageView.transform.b), Float(imageView.transform.a)))
         } else if sender.state == .Changed {
             imageView.center = CGPoint(x: originalImageCenter!.x + translation.x, y: originalImageCenter!.y)
+            let delta = (translation.x / imageView.frame.width) * CGFloat(M_PI / 4.0)
+            imageView.transform = CGAffineTransformMakeRotation(originalRotation! + delta)
         } else if sender.state == .Ended {
-            
         }
         
     }
@@ -31,6 +33,7 @@ class DraggableImageView: UIView {
     }
     
     var originalImageCenter: CGPoint?
+    var originalRotation: CGFloat?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
