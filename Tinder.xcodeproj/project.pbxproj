@@ -12,6 +12,8 @@
 		9B1B337F1C87E30B00533D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1B337D1C87E30B00533D89 /* Main.storyboard */; };
 		9B1B33811C87E30B00533D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1B33801C87E30B00533D89 /* Assets.xcassets */; };
 		9B1B33841C87E30B00533D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1B33821C87E30B00533D89 /* LaunchScreen.storyboard */; };
+		9B1B33941C87E70400533D89 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1B33931C87E70400533D89 /* DraggableImageView.xib */; };
+		9B1B33961C87E78300533D89 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B33951C87E78300533D89 /* DraggableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B1B33801C87E30B00533D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B1B33831C87E30B00533D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B1B33851C87E30B00533D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B1B33931C87E70400533D89 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		9B1B33951C87E78300533D89 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		9B1B336D1C87E30B00533D89 = {
 			isa = PBXGroup;
 			children = (
+				9B1B33951C87E78300533D89 /* DraggableImageView.swift */,
+				9B1B33931C87E70400533D89 /* DraggableImageView.xib */,
 				9B1B33781C87E30B00533D89 /* Tinder */,
 				9B1B33771C87E30B00533D89 /* Products */,
 			);
@@ -125,6 +131,7 @@
 			files = (
 				9B1B33841C87E30B00533D89 /* LaunchScreen.storyboard in Resources */,
 				9B1B33811C87E30B00533D89 /* Assets.xcassets in Resources */,
+				9B1B33941C87E70400533D89 /* DraggableImageView.xib in Resources */,
 				9B1B337F1C87E30B00533D89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1B337C1C87E30B00533D89 /* CardsViewController.swift in Sources */,
+				9B1B33961C87E78300533D89 /* DraggableImageView.swift in Sources */,
 				9B1B337A1C87E30B00533D89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

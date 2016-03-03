@@ -21,19 +21,16 @@
                                 <rect key="frame" x="0.0" y="440" width="320" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ryan" id="OtB-9i-N0x">
-                                <rect key="frame" x="8" y="132" width="304" height="304"/>
+                            <view contentMode="scaleAspectFit" id="1JY-MS-RUf" customClass="DraggableImageView" customModule="Tinder" customModuleProvider="target">
+                                <rect key="frame" x="8" y="94" width="304" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="myt-w9-kec" appends="YES" id="mZh-If-d6q"/>
-                                </connections>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="profileImageView" destination="OtB-9i-N0x" id="g1K-6l-zxB"/>
+                        <outlet property="profileImageView" destination="1JY-MS-RUf" id="Bc0-cO-7cE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -49,6 +46,5 @@
     <resources>
         <image name="action_buttons" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="449" height="514"/>
     </resources>
 </document>
